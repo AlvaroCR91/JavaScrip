@@ -1,0 +1,67 @@
+.foto1{
+    display: flex;
+    position: absolute;
+    right: 1055px;
+    bottom: 220px;
+    width: 60px;
+    height: 150px;
+}
+.foto2{
+
+    display: flex;
+    position: absolute;
+    right: 980px;
+    bottom: 220px;
+    width: 60px;
+    height: 150px;
+}
+.foto3{
+    display: flex;
+    position: absolute;
+    right: 900px;
+    bottom: 220px;
+    width: 60px;
+    height: 150px;
+}
+.palanca{
+    display: flex;
+    position: absolute;
+    right: 770px;
+    bottom: 220px;
+    width: 60px;
+    height: 150px;
+    background-color: #ff69b4; /* Hot pink background */
+    border: 2px solid #ff1493; /* Deep pink border */
+    border-radius: 10px; /* Rounded corners */
+    color: white; /* White text */
+    font-size: 16px; /* Larger text */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    justify-content: center; /* Center content */
+    align-items: center; /* Center content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.palanca:hover {
+    background-color: #ff1493; /* Change background on hover */
+}
+.estadisticas{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: 1170px;
+    bottom: 250px;
+    width: 100px;
+    height: 330px;
+    background-color: #ff69b4; /* Hot pink background */
+    border: 2px solid #ff1493; /* Deep pink border */
+    border-radius: 10px; /* Rounded corners */
+    color: white; /* White text */
+    font-size: 16px; /* Larger text */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    align-items: center; /* Center content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}

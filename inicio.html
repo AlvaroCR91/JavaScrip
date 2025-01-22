@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-    <img id="slot1" src="img/delegado1.jpg" alt="foto1" width="200px">
+    <div class="estadisticas">
+        <p>Partidas Jugadas: <span id="partidasJugadas">0</span></p>
+        <p>Partidas Ganadas: <span id="partidasGanadas">0</span></p>
+        <p>Partidas Perdidas: <span id="partidasPerdidas">0</span></p>
+        <p>Monedas: <span id="monedas">0</span></p>
+        <p>Premio: <span id="premio">0</span></p>
     </div>
     <div>
-    <img id="slot2" src="img/delegado2.jpg" alt="foto2" width="200px">
+        <img src="img/maquinaTragaperras.jpg" alt="tragaperras">
     </div>
-    <div>
-    <img id="slot3" src="img/delegado3.jpg" alt="foto2" width="200px">
+    <div class="palanca">
+        <button id="Palanca" onclick="tirada();">Tira de la Palanca</button>
+    </div>
+    <div class="foto1">
+    <img id="slot1" src="img/delegado1.jpg" alt="foto1" width="100%" height="100%">
+    </div>
+    <div class="foto2">
+    <img id="slot2" src="img/delegado2.jpg" alt="foto2" width="100%" height="100%">
+    </div>
+    <div class="foto3">
+    <img id="slot3" src="img/delegado3.jpg" alt="foto2" width="100%" height="100%">
     </div>
 
 
-    <script src="juego.js"></script>
+    <script src="juego.js" type="text/javascript"></script>
 </body>
 </html>

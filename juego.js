@@ -18,8 +18,10 @@ function cambiarImagen() {
 }
 
 function tirada() {
+    tiempoSlot1=100;
     manejarSlot1 = setInterval(cambiarImagen, tiempoSlot1);
     setInterval(pararSlot1, 3000);
+    
 }
 
 function reducirtiempo(){
@@ -32,5 +34,3 @@ function reducirtiempo(){
 function pararSlot1() {
     clearInterval(manejarSlot1);
 }
-
-tirada();
